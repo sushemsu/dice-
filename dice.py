@@ -13,7 +13,8 @@ def main():
     
 def throw_dice(dice, max_val):
     for die in range(dice):
-        throw = (random.randint(1,max_val))
+        systemRandom = random.SystemRandom()
+        throw = (systemRandom.randint(1,max_val))
         numbers = str(throw)
         print ("your throw is: " + numbers)
         
