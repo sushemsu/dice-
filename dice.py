@@ -17,5 +17,5 @@ def throw_dice(dice, max_val):
         throw = (systemRandom.randint(1,max_val))
         numbers = str(throw)
         print ("your throw is: " + numbers)
-        
+        print ("yeah you thought");
 main()    
